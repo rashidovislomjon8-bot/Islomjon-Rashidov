@@ -1,0 +1,160 @@
+:root {
+  --bg-cream:       #F7F1E8;   /* fon rangi */
+  --text-dark:      #3B241E;   /* sarlavha matni */
+  --text-gray:      #8A8079;   /* oddiy matn */
+  --accent-orange:  #D9855A;   /* "ABOUT" yorlig'i / logolar */
+  --avatar-orange:  #E8935C;   /* avatar foni */
+  --dot-purple:     #7C5CBF;   /* badge nuqtasi */
+  --dot-yellow:     #F0C419;   /* badge nuqtasi */
+  --white:          #FFFFFF;
+  --line-light:     #E7DED2;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 80px;
+  border-bottom: 1px solid var(--line-light);
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.logo {
+  color: var(--accent-orange);
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 80px;
+  flex-wrap: wrap;
+}
+
+.hero-visual {
+  position: relative;
+  width: 470px;
+  height: 400px;
+}
+
+.badge-card {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--white);
+  padding: 14px 20px;
+  border-radius: 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-orange { background: var(--avatar-orange); }
+.dot-purple { background: var(--dot-purple); margin-left: -8px; }
+.dot-yellow { background: var(--dot-yellow); margin-left: -8px; }
+
+.badge-lines {
+  width: 60px;
+  height: 8px;
+  background: var(--line-light);
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.photo-frame {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 470px;
+  height: 319px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #EDE3D6;
+}
+
+.office-photo { width: 100%; height: 100%; object-fit: cover; }
+
+.avatar {
+  position: absolute;
+  bottom: -30px;
+  left: -20px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: var(--avatar-orange);
+  overflow: hidden;
+  border: 6px solid var(--bg-cream);
+}
+
+.avatar-photo { width: 100%; height: 100%; object-fit: cover; }
+
+.hero-content { max-width: 480px; }
+
+.eyebrow {
+  color: var(--accent-orange);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.hero-content h1 {
+  font-size: 46px;
+  line-height: 1.2;
+  color: var(--text-dark);
+  margin: 16px 0 20px;
+}
+
+.subtitle { font-weight: 600; font-size: 18px; margin-bottom: 12px; }
+
+.description {
+  color: var(--text-gray);
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.btn-about {
+  background: var(--white);
+  border: none;
+  padding: 16px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--text-dark);
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 80px 80px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.stat { display: flex; flex-direction: column; gap: 6px; }
+
+.stat-number { font-size: 36px; font-weight: 700; color: var(--text-dark); }
+
+.stat-label { color: var(--text-gray); font-size: 14px; }
