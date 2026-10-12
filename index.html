@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Islomjon | portfolyo</title>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
     <header class="header">
       <a href="#" class="logo">Islomjon</a>
@@ -34,20 +36,29 @@
           Men web dasturlashni o'rganmoqdaman va HTML hamda CSS yordamida
           zamonaviy saytlar yaratmoqdaman.
         </p>
-        <button class="btn">Portfoliomni ko'rish</button>
+        <a href="#about" class="btn">Portfoliomni ko'rish</a>
       </div>
 
       <div class="photo-wrap">
         <img class="photo" src="./portfolyo.jpg" alt="Islomjon" />
       </div>
     </section>
+
     <div class="marquee">
       <div class="marquee-track">
-        <span>HTML</span><span>CSS</span><span>WEB DEVELOPMENT</span>
-        <span>FRONTEND</span><span>UI/UX</span><span>CODE</span>
-        <!-- bir xil takror (uzluksiz aylanishi uchun) -->
-        <span>HTML</span><span>CSS</span><span>WEB DEVELOPMENT</span>
-        <span>FRONTEND</span><span>UI/UX</span><span>CODE</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>WEB DEVELOPMENT</span>
+        <span>FRONTEND</span>
+        <span>UI/UX</span>
+        <span>CODE</span>
+        <!-- Bir xil takror, uzluksiz aylanish uchun -->
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>WEB DEVELOPMENT</span>
+        <span>FRONTEND</span>
+        <span>UI/UX</span>
+        <span>CODE</span>
       </div>
     </div>
 
@@ -65,51 +76,60 @@
       </div>
 
       <div class="cards">
-        <article class="card">
+        <article class="carid">
           <span class="icon">🎓</span>
           <small>Maktab</small>
           <h4>My School</h4>
           <p>№227</p>
         </article>
-        <article class="card">
+
+        <article class="carid">
           <span class="icon">📍</span>
           <small>Uzbekistan</small>
           <h4>Toshkent</h4>
           <p>husnobod 52</p>
         </article>
-        <article class="card">
+
+        <article class="carid">
           <span class="icon">💻</span>
           <small>Yo'nalish</small>
           <h4>Web Development</h4>
           <p>HTML • CSS • Frontend</p>
         </article>
-        <article class="card">
+
+        <article class="carid">
           <span class="icon">🚀</span>
           <small>Maqsad</small>
           <h4>My Goal</h4>
-          <p>profisional programist</p>
+          <p>professional programist</p>
         </article>
       </div>
     </section>
+
     <section class="family" id="family">
       <p class="eyebrow">My Family</p>
       <h2 class="sec-title">My Family</h2>
       <p class="sec-desc">
         These are the people who are always close to me and support me.
       </p>
+
+      <div class="card-3d">
+        <div><img class="img" src="./adajonim.jpg" alt="Adajonim" /></div>
+        <div><img class="img" src="./onam.jpg" alt="Onam" /></div>
+        <div><img class="img" src="./buvijonim.jpg" alt="Buvijonim" /></div>
+        <div><img class="img" src="./singlim copy.jpg" alt="Singlim" /></div>
+      </div>
     </section>
+
     <section class="skills" id="skills">
       <h3 class="skills-title">Mening ko'nikmalarim</h3>
 
       <div class="skills-grid">
         <article class="skill">
           <h4>HTML</h4>
-          <p>
-            Men toza va tartibli web sahifalar yarata olaman. Yomon g'oyalar
-            yo'q.
-          </p>
-          <strong class="percent">90%</strong>
-          <div class="bar"><span style="width: 100%"></span></div>
+          <p>Men toza va tartibli web sahifalar yarata olaman.</p>
+          <strong class="percent">78%</strong>
+          <div class="bar"><span style="width: 78%"></span></div>
         </article>
 
         <article class="skill">
@@ -118,8 +138,8 @@
             Men zamonaviy dizaynlar, animatsiyalar va moslashuvchan maketlar
             yarata olaman.
           </p>
-          <strong class="percent">90%</strong>
-          <div class="bar"><span style="width: 90%"></span></div>
+          <strong class="percent">80%</strong>
+          <div class="bar"><span style="width: 80%"></span></div>
         </article>
 
         <article class="skill">
@@ -133,12 +153,169 @@
         </article>
       </div>
     </section>
-    <!-- From Uiverse.io by musashi-13 -->
-    <div class="card-3d">
-      <div><img class="img" src="./adajonim.jpg" alt="" /></div>
-      <div><img class="img" src="./adajonim.jpg" alt="" /></div>
-      <div><img class="img" src="./adajonim.jpg" alt="" /></div>
-      <div><img class="img" src="./adajonim.jpg" alt="" /></div>
+
+    <section class="pj-section" id="loyihalar">
+      <article class="pj-card">
+        <div class="pj-img">
+          <img
+            src="./Снимок экрана 2026-10-07 170621.png"
+            alt="Birinchi loyiha"
+            onerror="this.style.display = 'none'"
+          />
+          <span class="pj-badge">01</span>
+        </div>
+        <div class="pj-info">
+          <span class="pj-tag">WEB LOYIHA</span>
+          <h3>Birinchi loyiham</h3>
+          <p>HTML va CSS yordamida yaratilgan web loyiha.</p>
+          <a class="pj-btn" href="#" target="_blank" rel="noopener">
+            <span>Loyihani ko'rish</span>
+            <span class="pj-arrow">↗</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="pj-card">
+        <div class="pj-img">
+          <img
+            src="./image.png"
+            alt="Ikkinchi loyiha"
+            onerror="this.style.display = 'none'"
+          />
+          <span class="pj-badge">02</span>
+        </div>
+        <div class="pj-info">
+          <span class="pj-tag">WEB LOYIHA</span>
+          <h3>Ikkinchi loyiham</h3>
+          <p>Zamonaviy dizayn va moslashuvchan tuzilishga ega web loyiha.</p>
+          <a class="pj-btn" href="#" target="_blank" rel="noopener">
+            <span>Loyihani ko'rish</span>
+            <span class="pj-arrow">↗</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="pj-card">
+        <div class="pj-img">
+          <img
+            src="./Снимок экрана 2026-10-07 171624.png"
+            alt="Uchinchi loyiha"
+            onerror="this.style.display = 'none'"
+          />
+          <span class="pj-badge">03</span>
+        </div>
+        <div class="pj-info">
+          <span class="pj-tag">WEB LOYIHA</span>
+          <h3>Uchinchi loyiham</h3>
+          <p>Toza kod va qulay interfeysga ega web sahifa.</p>
+          <a class="pj-btn" href="#" target="_blank" rel="noopener">
+            <span>Loyihani ko'rish</span>
+            <span class="pj-arrow">↗</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="pj-card">
+        <div class="pj-img">
+          <img
+            src="./Снимок экрана 2026-10-07 172248.png"
+            alt="To'rtinchi loyiha"
+            onerror="this.style.display = 'none'"
+          />
+          <span class="pj-badge">04</span>
+        </div>
+        <div class="pj-info">
+          <span class="pj-tag">WEB LOYIHA</span>
+          <h3>To'rtinchi loyiham</h3>
+          <p>JavaScript yordamida jonlantirilgan interaktiv web loyiha.</p>
+          <a class="pj-btn" href="#" target="_blank" rel="noopener">
+            <span>Loyihani ko'rish</span>
+            <span class="pj-arrow">↗</span>
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <section id="team">
+      <h3 class="h3">MENING GURUHDOSHLARIM</h3>
+      <h1 class="about-title">OUR TEAM</h1>
+
+      <div class="carousel-container">
+        <button class="nav-arrow left" type="button">‹</button>
+
+        <div class="carousel-track">
+          <div class="card" data-index="0">
+            <img src="./muhammadamin.png" alt="Muhammadamin" />
+          </div>
+
+          <div class="card" data-index="1">
+            <img src="./abdulloh.jpg" alt="Abdulloh" />
+          </div>
+
+          <div class="card" data-index="2">
+            <img src="./abduqodir.jpg" alt="Abduqodir" />
+          </div>
+
+          <div class="card" data-index="3">
+            <img src="./shoxrux photo.png" alt="Shoxrux" />
+          </div>
+
+          <div class="card" data-index="4">
+            <img src="./abuuu.PNG" alt="Abu" />
+          </div>
+
+          <div class="card" data-index="5">
+            <img src="./johon.png" alt="Johon" />
+          </div>
+        </div>
+
+        <button class="nav-arrow right" type="button">›</button>
+      </div>
+
+      <div class="member-info">
+        <h2 class="member-name">David Kim</h2>
+        <p class="member-role">Founder</p>
+      </div>
+
+      <div class="dots">
+        <div class="dot active" data-index="0"></div>
+        <div class="dot" data-index="1"></div>
+        <div class="dot" data-index="2"></div>
+        <div class="dot" data-index="3"></div>
+        <div class="dot" data-index="4"></div>
+        <div class="dot" data-index="5"></div>
+      </div>
+    </section>
+    <h1>Men bilan bog'lanish</h1>
+
+    <form class="form-box" id="contactForm">
+      <div class="row">
+        <input type="text" id="name" placeholder="Ismingiz" required />
+        <input type="email" id="email" placeholder="Emailingiz" required />
+      </div>
+
+      <div class="full">
+        <input type="text" id="subject" placeholder="Mavzu" required />
+      </div>
+
+      <textarea
+        id="message"
+        placeholder="Xabaringizni yozing..."
+        required
+      ></textarea>
+
+      <button type="submit">
+        Xabar yuborish <i class="fa-solid fa-arrow-right"></i>
+      </button>
+      <p id="status"></p>
+    </form>
+
+    <div class="socials">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-telegram"></i></a>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
