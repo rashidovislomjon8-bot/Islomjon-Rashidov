@@ -39,6 +39,11 @@ const teamMembers = [
   { name: "Shoxruh", role: "Yaxshi guruhdoshim" },
   { name: "Abdurahmon", role: "PDP JUNIOR da o'qiydi" },
   { name: "Jahongir", role: "Mening guruhdoshim" },
+  { name: "Anvar", role: "chaqqon:" },
+  { name: "Karimbek", role: "kech qoluvchi oquvchi" },
+  { name: "Nizom", role: "yaxwi dost" },
+  { name: "Abdullox", role: "kompyuterda otiradi" },
+  { name: "Davlatbek", role: "juda intiluvhan oquvchi" },
 ];
 
 let activeIndex = 0;

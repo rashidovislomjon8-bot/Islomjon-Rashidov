@@ -12,7 +12,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Yashil yomg'ir foni */
 body::before {
   content: "";
   position: fixed;
@@ -33,7 +32,6 @@ body::before {
   }
 }
 
-/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -79,7 +77,6 @@ body::before {
   color: #22c522;
 }
 
-/* Hero */
 .sec-1 {
   width: min(1200px, 94%);
   margin: 0 auto;
@@ -130,13 +127,13 @@ h1 {
   transition:
     transform 0.2s,
     box-shadow 0.2s;
+  text-decoration: none;
 }
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 0 32px rgba(34, 197, 34, 0.6);
 }
 
-/* Rasm va belgilar */
 .photo-wrap {
   position: relative;
   justify-self: center;
@@ -182,7 +179,6 @@ h1 {
   right: -10px;
 }
 
-/* Telefon */
 @media (max-width: 800px) {
   .header {
     flex-direction: column;
@@ -209,7 +205,6 @@ h1 {
   }
 }
 
-/* Harakatlanuvchi tasma */
 .marquee {
   overflow: hidden;
   border-top: 1px solid rgba(34, 197, 34, 0.15);
@@ -241,7 +236,6 @@ h1 {
   }
 }
 
-/* Men haqimda */
 .about {
   width: min(1200px, 94%);
   margin: 0 auto;
@@ -275,7 +269,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Kartalar */
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -549,8 +542,8 @@ h1 {
 
 .card-3d div {
   position: absolute;
-  width: 100px;
-  height: 140px;
+  width:200px;
+  height: 240px;
   top: 50%;
   left: 50%;
   background: #c7c7c7;
@@ -983,20 +976,6 @@ h1 {
   .member-name::after {
     right: -70px;
   }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #050505;
-  color: #fff;
-  font-family: "Segoe UI", Arial, sans-serif;
-  min-height: 100vh;
-  padding: 60px 20px;
 }
 
 h1 {
