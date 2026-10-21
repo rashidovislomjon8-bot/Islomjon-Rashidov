@@ -21,7 +21,6 @@
           <li><a href="#family">Oilam</a></li>
           <li><a href="#skills">Ko'nikmalar</a></li>
           <li><a href="#team">Jamoa</a></li>
-          <li><a href="#goals">Kelajak</a></li>
           <li><a href="#contact">Aloqa</a></li>
         </ul>
       </nav>
@@ -30,7 +29,7 @@
     <section class="sec-1">
       <div class="text">
         <p class="welcome">Mening portfoliomga xush kelibsiz</p>
-        <h1>Salom, men</h1>
+        <h1 class="hero-title">Salom, men <span class="name"></span></h1>
         <h2 class="h2">Islomjon</h2>
         <p class="desc">
           Men web dasturlashni o'rganmoqdaman va HTML hamda CSS yordamida
@@ -52,7 +51,6 @@
         <span>FRONTEND</span>
         <span>UI/UX</span>
         <span>CODE</span>
-        <!-- Bir xil takror, uzluksiz aylanish uchun -->
         <span>HTML</span>
         <span>CSS</span>
         <span>WEB DEVELOPMENT</span>
@@ -258,7 +256,6 @@
 
     <section id="team">
       <h3 class="h3">MENING GURUHDOSHLARIM</h3>
-      <h1 class="about-title">OUR TEAM</h1>
 
       <div class="carousel-container">
         <button class="nav-arrow left" type="button">‹</button>
@@ -281,11 +278,11 @@
           </div>
 
           <div class="card" data-index="4">
-            <img src="./abuuu.PNG" alt="Abu" />
+            <img src="./abuuu.PNG" alt="abdurahmon" />
           </div>
 
           <div class="card" data-index="5">
-            <img src="./johon.png" alt="Johon" />
+            <img src="./johon.png" alt="jahongir" />
           </div>
         </div>
 
@@ -306,36 +303,31 @@
         <div class="dot" data-index="5"></div>
       </div>
     </section>
-    <h1>Men bilan bog'lanish</h1>
+    <section id="contact">
+      <h1>Men bilan bog'lanish</h1>
 
-    <form class="form-box" id="contactForm">
-      <div class="row">
-        <input type="text" id="name" placeholder="Ismingiz" required />
-        <input type="email" id="email" placeholder="Emailingiz" required />
-      </div>
+      <form class="form-box" id="contactForm">
+        <div class="row">
+          <input type="text" id="name" placeholder="Ismingiz" required />
+          <input type="email" id="email" placeholder="Emailingiz" required />
+        </div>
 
-      <div class="full">
-        <input type="text" id="subject" placeholder="Mavzu" required />
-      </div>
+        <div class="full">
+          <input type="text" id="subject" placeholder="Mavzu" required />
+        </div>
 
-      <textarea
-        id="message"
-        placeholder="Xabaringizni yozing..."
-        required
-      ></textarea>
+        <textarea
+          id="message"
+          placeholder="Xabaringizni yozing..."
+          required
+        ></textarea>
 
-      <button type="submit">
-        Xabar yuborish <i class="fa-solid fa-arrow-right"></i>
-      </button>
-      <p id="status"></p>
-    </form>
-
-    <div class="socials">
-      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="#"><i class="fa-brands fa-twitter"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"><i class="fa-brands fa-telegram"></i></a>
-    </div>
-    <script src="./app.js"></script>
+        <button type="submit">
+          Xabar yuborish <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <p id="status"></p>
+      </form>
+      <script src="./app.js"></script>
+    </section>
   </body>
 </html>

@@ -37,8 +37,8 @@ const teamMembers = [
   { name: "Abdulloh", role: "PDP JUNIOR da a'lochi" },
   { name: "Abduqodir", role: "PDP JUNIOR da o'rtog'im" },
   { name: "Shoxruh", role: "Yaxshi guruhdoshim" },
-  { name: "Abuu", role: "PDP JUNIOR da o'qiydi" },
-  { name: "Johon", role: "Mening guruhdoshim" },
+  { name: "Abdurahmon", role: "PDP JUNIOR da o'qiydi" },
+  { name: "Jahongir", role: "Mening guruhdoshim" },
 ];
 
 let activeIndex = 0;
