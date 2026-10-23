@@ -41,7 +41,7 @@ const teamMembers = [
   { name: "Jahongir", role: "Mening guruhdoshim" },
   { name: "Anvar", role: "chaqqon:" },
   { name: "Karimbek", role: "kech qoluvchi oquvchi" },
-  { name: "Nizom", role: "yaxwi dost" },
+  { name: "Nizomiddin", role: "yaxwi dost" },
   { name: "Abdullox", role: "kompyuterda otiradi" },
   { name: "Davlatbek", role: "juda intiluvhan oquvchi" },
 ];
