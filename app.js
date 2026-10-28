@@ -43,7 +43,7 @@ const teamMembers = [
   { name: "Karimbek", role: "kech qoluvchi oquvchi" },
   { name: "Nizomiddin", role: "yaxwi dost" },
   { name: "Abdullox", role: "kompyuterda otiradi" },
-  { name: "Davlatbek", role: "juda intiluvhan oquvchi" },
+ 
 ];
 
 let activeIndex = 0;
